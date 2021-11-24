@@ -1,0 +1,65 @@
+/* common */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Page Job */
+.container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 70%;
+margin: auto;
+}
+
+.hero img{
+  width: 21.875rem;
+  padding: 0 1.875rem;
+}
+
+/* Job-card component */
+
+.job_row{
+    width: 43rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: .625rem 2.5rem .625rem 1.25rem;
+    font-size: 1.125rem
+
+}
+
+.job_description{
+    margin-right: auto;
+    padding: 0  2.5rem;
+}
+.job_row a{
+    display: inline-block;
+    background: -webkit-linear-gradient(left,#40C5E4 15.51%, #DE8E8E 77.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.25rem
+}
+
+.tags span{
+    margin: 0 .25rem;
+    font-family: 'Exo 2', sans-serif;
+    font-size: .875rem;
+    line-height: 1.0625rem;  
+    color: #001921;
+}
+
+.job_row:hover{
+    background-image: url('/src/img/bg_hover.png');
+    background-repeat: no-repeat;
+}
