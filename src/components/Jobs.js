@@ -5,8 +5,6 @@ function Jobs() {
     return(
       <div className="box">
         <Job_card/>
-        {/* <Job_card/>
-        <Job_card/> */}
       </div>
     
     )
