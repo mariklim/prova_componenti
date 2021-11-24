@@ -28,7 +28,7 @@ function Job_card() {
                   <span>{job.tags}</span>
                 </div>
               </div>
-              <a href={job.link}>Applay now</a>
+              <a href={job.link}  target="_blank">Applay now</a>
             </div>
           })
         }

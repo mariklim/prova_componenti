@@ -13,6 +13,23 @@ a{
     text-decoration: none;
 }
 
+
+/* Jobs component */
+ul li{
+    display: inline-block;
+    list-style: none;
+}
+.box nav li{
+padding-right: 1.875rem;
+}
+.box nav li a{
+    font-family: 'Exo 2', sans-serif;
+    padding: 1.25rem;
+    }
+
+.box nav{
+padding: .625rem
+}
 /* Page Job */
 .container{
 display: flex;
@@ -24,11 +41,14 @@ margin: auto;
 
 .hero img{
   width: 21.875rem;
-  padding: 0 1.875rem;
+  padding: 0 .625rem;
 }
+.pageSlogan p{
+    width: 50%;
+    font-family: 'Exo 2', sans-serif;
 
+}
 /* Job-card component */
-
 .job_row{
     width: 43rem;
     display: flex;
@@ -42,6 +62,10 @@ margin: auto;
 .job_description{
     margin-right: auto;
     padding: 0  2.5rem;
+}
+
+.job_row{
+    margin: .625rem 1.25rem;
 }
 .job_row a{
     display: inline-block;
